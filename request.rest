@@ -1,0 +1,18 @@
+POST http://localhost:3000/users/signup
+Header: Content-Type: application/json
+
+{
+  "name": "john",
+  "email": "john1@gmail.com",
+  "password": "password123"
+}
+###
+
+POST http://localhost:3000/createWallet
+eader: Content-Type: application/json
+body: raw
+
+{
+  "userId": "123",
+  "balance": "1000",
+ }
